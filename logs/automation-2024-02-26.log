@@ -1,0 +1,73 @@
+16:32:09.637 [main] INFO  factory.BaseClass - submitted the form
+19:44:44.428 [main] INFO  factory.BaseClass - Clicked on search button and entered webdev
+19:44:48.155 [main] INFO  factory.BaseClass - Clicked on enter
+19:44:48.525 [main] INFO  factory.BaseClass - Applied language filter
+19:44:49.252 [main] INFO  factory.BaseClass - Applied level filter
+19:44:52.033 [main] INFO  factory.BaseClass - Printed course name
+19:44:52.817 [main] INFO  factory.BaseClass - Printed course rating
+19:45:12.376 [main] INFO  factory.BaseClass - Clicked on Buisness
+19:45:12.635 [main] INFO  factory.BaseClass - Entered first name
+19:45:12.780 [main] INFO  factory.BaseClass - Entered last name
+19:45:12.890 [main] INFO  factory.BaseClass - Entered email 
+19:45:12.983 [main] INFO  factory.BaseClass - Entered phone no 
+19:45:13.081 [main] INFO  factory.BaseClass - Entered title
+19:45:13.239 [main] INFO  factory.BaseClass - Entered expected learner
+19:45:13.421 [main] INFO  factory.BaseClass - Entered country
+19:45:13.610 [main] INFO  factory.BaseClass - Entered state
+19:45:13.795 [main] INFO  factory.BaseClass - Entered needs
+19:45:13.906 [main] INFO  factory.BaseClass - submitted the form
+19:45:16.955 [main] INFO  factory.BaseClass - Got the warning message
+19:45:36.932 [main] INFO  factory.BaseClass - Clicked search button
+19:45:37.154 [main] INFO  factory.BaseClass - Entered language Learning and pressed enter
+19:45:37.822 [main] INFO  factory.BaseClass - printed count of languages
+19:45:38.211 [main] INFO  factory.BaseClass - printed languages
+19:45:38.228 [main] INFO  factory.BaseClass - printed count of levels 
+19:45:38.322 [main] INFO  factory.BaseClass - printed levels
+19:47:37.095 [main] INFO  factory.BaseClass - Clicked search button
+19:47:37.521 [main] INFO  factory.BaseClass - Entered language Learning and pressed enter
+19:47:37.868 [main] INFO  factory.BaseClass - printed count of languages
+19:47:38.350 [main] INFO  factory.BaseClass - printed languages
+19:47:38.368 [main] INFO  factory.BaseClass - printed count of levels 
+19:47:38.462 [main] INFO  factory.BaseClass - printed levels
+19:49:25.881 [main] INFO  factory.BaseClass - Clicked on search button and entered webdev
+19:49:31.685 [main] INFO  factory.BaseClass - Clicked on enter
+19:49:32.032 [main] INFO  factory.BaseClass - Applied language filter
+19:49:32.214 [main] INFO  factory.BaseClass - Applied level filter
+19:49:34.955 [main] INFO  factory.BaseClass - Printed course name
+19:49:35.724 [main] INFO  factory.BaseClass - Printed course rating
+19:49:56.178 [main] INFO  factory.BaseClass - Clicked on Buisness
+19:49:56.320 [main] INFO  factory.BaseClass - Entered first name
+19:49:56.482 [main] INFO  factory.BaseClass - Entered last name
+19:49:56.597 [main] INFO  factory.BaseClass - Entered email 
+19:49:56.715 [main] INFO  factory.BaseClass - Entered phone no 
+19:49:56.824 [main] INFO  factory.BaseClass - Entered title
+19:49:57.040 [main] INFO  factory.BaseClass - Entered expected learner
+19:49:57.270 [main] INFO  factory.BaseClass - Entered country
+19:49:57.462 [main] INFO  factory.BaseClass - Entered state
+19:49:57.637 [main] INFO  factory.BaseClass - Entered needs
+19:49:57.770 [main] INFO  factory.BaseClass - submitted the form
+19:50:00.817 [main] INFO  factory.BaseClass - Got the warning message
+19:50:18.341 [main] INFO  factory.BaseClass - Clicked search button
+19:50:18.558 [main] INFO  factory.BaseClass - Entered language Learning and pressed enter
+19:50:18.859 [main] INFO  factory.BaseClass - printed count of languages
+19:50:19.534 [main] INFO  factory.BaseClass - printed languages
+19:50:19.552 [main] INFO  factory.BaseClass - printed count of levels 
+19:50:19.658 [main] INFO  factory.BaseClass - printed levels
+19:52:19.483 [main] INFO  factory.BaseClass - Clicked on search button and entered webdev
+19:52:22.672 [main] INFO  factory.BaseClass - Clicked on enter
+19:52:23.028 [main] INFO  factory.BaseClass - Applied language filter
+19:52:23.347 [main] INFO  factory.BaseClass - Applied level filter
+19:52:26.403 [main] INFO  factory.BaseClass - Printed course name
+19:52:27.285 [main] INFO  factory.BaseClass - Printed course rating
+19:53:16.115 [main] INFO  factory.BaseClass - Clicked on search button and entered webdev
+19:53:20.577 [main] INFO  factory.BaseClass - Clicked on enter
+19:53:20.918 [main] INFO  factory.BaseClass - Applied language filter
+19:53:21.096 [main] INFO  factory.BaseClass - Applied level filter
+19:53:24.022 [main] INFO  factory.BaseClass - Printed course name
+19:53:24.826 [main] INFO  factory.BaseClass - Printed course rating
+19:53:44.769 [main] INFO  factory.BaseClass - Clicked on Buisness
+19:53:44.997 [main] INFO  factory.BaseClass - Entered first name
+19:53:45.327 [main] INFO  factory.BaseClass - Entered last name
+19:53:45.488 [main] INFO  factory.BaseClass - Entered email 
+19:53:45.626 [main] INFO  factory.BaseClass - Entered phone no 
+19:53:45.764 [main] INFO  factory.BaseClass - Entered title
