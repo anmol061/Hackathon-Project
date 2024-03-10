@@ -1,27 +1,22 @@
-19:53:45.972 [main] INFO  factory.BaseClass - Entered expected learner
-19:53:46.192 [main] INFO  factory.BaseClass - Entered country
-19:53:46.399 [main] INFO  factory.BaseClass - Entered state
-19:53:46.593 [main] INFO  factory.BaseClass - Entered needs
-19:53:46.730 [main] INFO  factory.BaseClass - submitted the form
-19:53:49.779 [main] INFO  factory.BaseClass - Got the warning message
-19:54:04.728 [main] INFO  factory.BaseClass - Clicked search button
-19:54:04.956 [main] INFO  factory.BaseClass - Entered language Learning and pressed enter
-19:54:05.454 [main] INFO  factory.BaseClass - printed count of languages
-19:54:05.935 [main] INFO  factory.BaseClass - printed languages
-19:54:05.952 [main] INFO  factory.BaseClass - printed count of levels 
-19:54:06.061 [main] INFO  factory.BaseClass - printed levels
-20:22:16.286 [main] INFO  Testcases.CourseSearch - chrome browser opened successfully
-20:22:21.998 [main] INFO  Testcases.CourseSearch - Base Page loaded sucessfully.......
-20:22:23.814 [main] INFO  factory.BaseClass - HomePage Title is verified
-20:22:24.928 [main] INFO  Testcases.CourseSearch - browser closed successfully....
-20:23:16.050 [main] INFO  Testcases.CourseSearch - chrome browser opened successfully
-20:23:21.728 [main] INFO  Testcases.CourseSearch - Base Page loaded sucessfully.......
-20:23:22.500 [main] INFO  factory.BaseClass - HomePage Title is verified
-20:23:23.642 [main] INFO  Testcases.CourseSearch - browser closed successfully....
-20:24:21.992 [main] INFO  Testcases.CourseSearch - chrome browser opened successfully
-20:24:28.008 [main] INFO  Testcases.CourseSearch - Base Page loaded sucessfully.......
-20:24:30.066 [main] INFO  factory.BaseClass - Clicked on search button and entered webdev
-20:24:33.876 [main] INFO  factory.BaseClass - Clicked on enter
-20:24:33.953 [main] INFO  factory.BaseClass - WebDev page Title is verified
-20:24:34.000 [main] INFO  factory.BaseClass - HomePage Title is verified
-20:24:35.126 [main] INFO  Testcases.CourseSearch - browser closed successfully....
+10:40:39.336 [main] INFO  factory.BaseClass - Applied language filter
+10:40:39.884 [main] INFO  factory.BaseClass - Applied level filter
+10:40:42.758 [main] INFO  factory.BaseClass - Printed course name
+10:40:43.752 [main] INFO  factory.BaseClass - Printed course rating
+10:41:11.121 [main] INFO  factory.BaseClass - Clicked on Buisness
+10:41:11.495 [main] INFO  factory.BaseClass - Entered first name
+10:41:11.871 [main] INFO  factory.BaseClass - Entered last name
+10:41:12.136 [main] INFO  factory.BaseClass - Entered email 
+10:41:12.405 [main] INFO  factory.BaseClass - Entered phone no 
+10:41:12.606 [main] INFO  factory.BaseClass - Entered title
+10:41:12.891 [main] INFO  factory.BaseClass - Entered expected learner
+10:41:13.210 [main] INFO  factory.BaseClass - Entered country
+10:41:13.553 [main] INFO  factory.BaseClass - Entered state
+10:41:13.842 [main] INFO  factory.BaseClass - Entered needs
+10:41:14.081 [main] INFO  factory.BaseClass - submitted the form
+10:41:17.168 [main] INFO  factory.BaseClass - Got the warning message
+10:41:36.148 [main] INFO  factory.BaseClass - Clicked search button
+10:41:36.571 [main] INFO  factory.BaseClass - Entered language Learning and pressed enter
+10:41:38.067 [main] INFO  factory.BaseClass - printed count of languages
+10:41:41.478 [main] INFO  factory.BaseClass - printed languages
+10:41:41.516 [main] INFO  factory.BaseClass - printed count of levels 
+10:41:41.972 [main] INFO  factory.BaseClass - printed levels

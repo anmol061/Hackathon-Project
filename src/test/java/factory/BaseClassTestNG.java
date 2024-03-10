@@ -87,7 +87,7 @@ public class BaseClassTestNG {
 			String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 			TakesScreenshot takeScreenshot = (TakesScreenshot)driver;
 			File sourceFile = takeScreenshot.getScreenshotAs(OutputType.FILE);
-			String targetFilePath=System.getProperty("user.dir")+"\\ER_screenshots\\" + tname +"-" + timeStamp + ".png";
+			String targetFilePath=System.getProperty("user.dir")+"\\ERscreenshots\\" + tname +"-" + timeStamp + ".png";
 			File targetFile = new File(targetFilePath);
 			
 			sourceFile.renameTo(targetFile);

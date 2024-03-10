@@ -27,7 +27,6 @@ public class ExtentReportManager implements ITestListener {
 	public ExtentSparkReporter sparkReporter;
 	public ExtentReports extent;
 	public ExtentTest test;
-
 	String repName;
 
 	public void onStart(ITestContext testContext) {
@@ -36,20 +35,20 @@ public class ExtentReportManager implements ITestListener {
 		
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
 		repName = "Test-Report-" + timeStamp + ".html";
-		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report
+		String pathOfExtentReport = System.getProperty("user.dir")+"\\reports\\"+repName;
+		sparkReporter = new ExtentSparkReporter(pathOfExtentReport);// specify location of the report
 
-		sparkReporter.config().setDocumentTitle("Be cognizant Header view Automation Report"); // Title of report
-		sparkReporter.config().setReportName("Header view  Functional Testing"); // name of the report
+		sparkReporter.config().setDocumentTitle("Coursera Automation Report"); // Title of report
+		sparkReporter.config().setReportName(" Coursera Functional Testing"); // name of the report
 		sparkReporter.config().setTheme(Theme.DARK);
 		
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);
-		extent.setSystemInfo("Application", "BeCognizant");
-		extent.setSystemInfo("Module", "Team-C");
-		extent.setSystemInfo("Sub Module", "Team-C");
-		extent.setSystemInfo("User Name", System.getProperty("user.name"));
+		extent.setSystemInfo("Application", "Coursera");
+		extent.setSystemInfo("Module", "Team-A");
+		extent.setSystemInfo("Sub Module", "Team-A");
+		extent.setSystemInfo("User Name", "anmol");
 		extent.setSystemInfo("Environemnt", "QA");
-		
 		
 		String browser = testContext.getCurrentXmlTest().getParameter("browser");
 		extent.setSystemInfo("Browser", browser);
@@ -67,7 +66,7 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.PASS,result.getName()+" got successfully executed");
 		
 	}
-
+	
 	public void onTestFailure(ITestResult result) {
 		test = extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups());
@@ -81,6 +80,7 @@ public class ExtentReportManager implements ITestListener {
 			
 		} catch (IOException e1) {
 			e1.printStackTrace();
+			
 		}
 	}
 
@@ -102,6 +102,7 @@ public class ExtentReportManager implements ITestListener {
 			Desktop.getDesktop().browse(extentReport.toURI());
 		} catch (IOException e) {
 			e.printStackTrace();
+			
 		}
 
 		

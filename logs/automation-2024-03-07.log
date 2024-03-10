@@ -1,0 +1,68 @@
+15:34:42.272 [main] INFO  factory.BaseClass - HomePage Title is verified
+15:34:42.591 [main] INFO  factory.BaseClass - Clicked on search button and entered webdev
+15:34:47.558 [main] INFO  factory.BaseClass - Clicked on enter
+15:34:47.805 [main] INFO  factory.BaseClass - WebDev page Title is verified
+15:34:49.031 [main] INFO  factory.BaseClass - Applied language filter
+15:34:53.503 [main] INFO  factory.BaseClass - Applied level filter
+15:34:54.837 [main] INFO  factory.BaseClass - Printed course name
+15:34:56.836 [main] INFO  factory.BaseClass - Printed course rating
+15:34:57.990 [main] INFO  Testcases.CourseSearch - browser closed successfully....
+15:35:03.832 [main] INFO  Testcases.LanguageLearning - chrome browser opened successfully
+15:35:56.331 [main] INFO  Testcases.LanguageLearning - Base Page loaded sucessfully.......
+15:36:31.015 [main] INFO  factory.BaseClass - Clicked search button
+15:36:31.487 [main] INFO  factory.BaseClass - Entered language Learning and pressed enter
+15:36:32.739 [main] INFO  factory.BaseClass - printed count of languages
+15:36:36.004 [main] INFO  factory.BaseClass - printed languages
+15:36:36.411 [main] INFO  factory.BaseClass - printed count of levels 
+15:36:36.846 [main] INFO  factory.BaseClass - printed levels
+15:36:38.231 [main] INFO  Testcases.LanguageLearning - browser closed successfully....
+15:36:44.012 [main] INFO  Testcases.ForEnterprise - chrome browser opened successfully
+15:36:59.627 [main] INFO  Testcases.ForEnterprise - Base Page loaded sucessfully.......
+15:37:36.449 [main] INFO  factory.BaseClass - Clicked on Buisness
+15:37:36.709 [main] INFO  factory.BaseClass - Entered first name
+15:37:37.166 [main] INFO  factory.BaseClass - Entered last name
+15:37:37.398 [main] INFO  factory.BaseClass - Entered email 
+15:37:37.606 [main] INFO  factory.BaseClass - Entered phone no 
+15:37:37.821 [main] INFO  factory.BaseClass - Entered title
+15:37:38.117 [main] INFO  factory.BaseClass - Entered expected learner
+15:37:38.458 [main] INFO  factory.BaseClass - Entered country
+15:37:38.744 [main] INFO  factory.BaseClass - Entered state
+15:37:39.025 [main] INFO  factory.BaseClass - Entered needs
+15:37:39.484 [main] INFO  factory.BaseClass - submitted the form
+15:38:04.039 [main] INFO  Testcases.ForEnterprise - browser closed successfully....
+11:40:06.070 [main] INFO  Testcases.CourseSearch - chrome browser opened successfully
+11:40:06.742 [main] INFO  Testcases.CourseSearch - Base Page loaded sucessfully.......
+11:40:36.763 [main] INFO  factory.BaseClass - Clicked on search button and entered webdev
+11:41:13.641 [main] INFO  factory.BaseClass - Clicked on enter
+11:41:13.748 [main] INFO  factory.BaseClass - WebDev page Title is verified
+11:41:14.533 [main] INFO  factory.BaseClass - Applied language filter
+11:41:17.056 [main] INFO  factory.BaseClass - Applied level filter
+11:41:37.494 [main] INFO  factory.BaseClass - Printed course name
+11:41:39.693 [main] INFO  factory.BaseClass - Printed course rating
+11:41:41.061 [main] INFO  Testcases.CourseSearch - browser closed successfully....
+11:41:47.195 [main] INFO  Testcases.LanguageLearning - chrome browser opened successfully
+11:42:33.234 [main] INFO  Testcases.LanguageLearning - Base Page loaded sucessfully.......
+11:43:14.455 [main] INFO  factory.BaseClass - Clicked search button
+11:43:14.966 [main] INFO  factory.BaseClass - Entered language Learning and pressed enter
+11:43:15.676 [main] INFO  factory.BaseClass - printed count of languages
+11:43:19.948 [main] INFO  factory.BaseClass - printed languages
+11:43:20.446 [main] INFO  factory.BaseClass - printed count of levels 
+11:43:20.921 [main] INFO  factory.BaseClass - printed levels
+11:43:22.132 [main] INFO  Testcases.LanguageLearning - browser closed successfully....
+11:43:28.240 [main] INFO  Testcases.ForEnterprise - chrome browser opened successfully
+11:43:42.636 [main] INFO  Testcases.ForEnterprise - Base Page loaded sucessfully.......
+11:44:29.642 [main] INFO  factory.BaseClass - Clicked on Buisness
+11:44:29.928 [main] INFO  factory.BaseClass - Entered first name
+11:44:30.209 [main] INFO  factory.BaseClass - Entered last name
+11:44:30.449 [main] INFO  factory.BaseClass - Entered email 
+11:44:30.695 [main] INFO  factory.BaseClass - Entered phone no 
+11:44:30.909 [main] INFO  factory.BaseClass - Entered title
+11:44:31.250 [main] INFO  factory.BaseClass - Entered expected learner
+11:44:31.592 [main] INFO  factory.BaseClass - Entered country
+11:44:31.904 [main] INFO  factory.BaseClass - Entered state
+11:44:32.244 [main] INFO  factory.BaseClass - Entered needs
+11:44:32.745 [main] INFO  factory.BaseClass - submitted the form
+11:44:57.457 [main] INFO  Testcases.ForEnterprise - browser closed successfully....
+11:51:50.367 [main] INFO  factory.BaseClass - Clicked on search button and entered webdev
+11:51:58.382 [main] INFO  factory.BaseClass - Clicked on enter
+11:51:59.024 [main] INFO  factory.BaseClass - Applied language filter

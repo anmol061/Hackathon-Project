@@ -57,9 +57,10 @@ public class CourseSearch {
             wb.returnrating();
 			BaseClass.getLogger().info("Printed course rating");
 			
+			wb.printDuration();
+			
 			eu.writeData(wb.course, wb.rating,"Webdev Course");
 		
-
 	}
 
 }

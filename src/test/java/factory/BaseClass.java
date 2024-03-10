@@ -100,4 +100,4 @@ public class BaseClass {
 		String num = RandomStringUtils.randomNumeric(10);
 		return str + num;
 	}
-}
+} 

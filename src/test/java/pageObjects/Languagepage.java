@@ -12,18 +12,38 @@ public class Languagepage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(xpath = "//div[@class='css-1vfysn6']")
+	
+	
+	public List<String>language;
+	public List<String>level;
+	
+	@FindBy(xpath = "//div[@class='css-zweepb']//div")
 	List<WebElement>languagecount;
 	
 	@FindBy(xpath = "(//span[text()='Show more'])[2]")
 	private WebElement showmore;
 	
-	@FindBy(xpath = "(//div[@class='cds-246 cds-formGroup-groupWrapper'])[4]//child::div[@class='css-zf4w52']")
+	@FindBy(xpath = "//div[@data-testid=\"search-filter-group-Level\"]/div/div//label/div/span")
 	List<WebElement> levelcount;
+	
+	@FindBy(xpath="(//span[@class='cds-button-endIcon'])[2]")
+	WebElement close;
 	
 	
 	public void clickshowmore() {
 		showmore.click();
+	}
+	
+	public List<String> returnlanguage(){
+		language = ElementToString.convertData(languagecount,language);
+		System.out.println("---------------------------------------------------");
+		close.click();
+		return language;
+	}
+	
+	public List<String> returnlevel() {
+		level =ElementToString.convertData(levelcount,level);
+		return level;
 	}
 	
 	public int countlanguage() {
@@ -31,12 +51,14 @@ public class Languagepage extends BasePage {
 		return count;
 	}
 	
-	public void extractlanguage() {
-		for(WebElement lang : languagecount) {
-			String languages = lang.getText();
-			System.out.println(languages);
-		}
-	}
+//	public void extractlanguage() throws InterruptedException {
+//		for(WebElement lang : languagecount) {
+//			String languages = lang.getText();
+//			System.out.println(languages);
+//			
+//		}
+		
+	
 		
 		
 		public int countlevel(){
@@ -44,16 +66,11 @@ public class Languagepage extends BasePage {
 			return count;
 		}
 		
-		public void extractlevel(){
-			for(WebElement lev : levelcount) {
-				String level = lev.getText();
-				System.out.println(level);
-			}
-		}
-		
+//		public void extractlevel(){
+//			for(WebElement lev : levelcount) {
+//				String level = lev.getText();
+//				System.out.println(level);
+//			}
+		}	
 	
-	
-	
-	
-	
-}
+
